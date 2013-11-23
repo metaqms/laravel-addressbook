@@ -34,7 +34,11 @@ return array(
          */
         'filters' => array(
                 'id',
-                'organisation_id',      
+                'organisation_name' => array(
+                        'title' => 'Organisation',
+                        'relationship' => 'organisation',
+                        'select' => '(:table).organisation_name',
+                )    
         ),
 
         /**

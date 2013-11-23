@@ -17,4 +17,9 @@ class Contact extends Eloquent {
 		'personal_phone' => 'required',
 		'status' => 'required'
 	);
+
+	public function organisation ()
+        {
+                return $this->belongsTo('Organisation');
+        }
 }
