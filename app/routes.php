@@ -17,3 +17,5 @@ Route::get('/', function()
 });
 
 Route::resource('contacts', 'ContactsController');
+
+Route::resource('organisations', 'OrganisationsController');
