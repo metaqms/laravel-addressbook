@@ -116,6 +116,8 @@ return array(
 
 		'Way\Generators\GeneratorsServiceProvider',
 
+		'Frozennode\Administrator\AdministratorServiceProvider',
+
 	),
 
 	/*
